@@ -1,0 +1,17 @@
+{
+    "name": "sylver/roman-numbers",
+    "require": {
+        "phpspec/phpspec": "^3.1"
+    },
+    "authors": [
+        {
+            "name": "SimonGonzalezCepeda",
+            "email": "simongonzalez@iesebre.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    }
+}
