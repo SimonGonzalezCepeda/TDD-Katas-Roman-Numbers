@@ -2,6 +2,6 @@ const elixir = require('laravel-elixir');
 
 elixir(
     function(mix){
-        mix.phpspec();
+        mix.phpSpec();
     }
 );
