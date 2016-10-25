@@ -30,4 +30,7 @@ class RomanNumbersSpec extends ObjectBehavior
     function it_returns_X_if_10(){
         $this->convert(10)->shouldReturn("X");
     }
+    function it_returns_MCMXCIX_if_1999(){
+        $this->convert(1999)->shouldReturn("MCMXCIX");
+    }
 }
