@@ -25,10 +25,8 @@ class RomanNumbers
         foreach($this->code as $decimal => $roman){
 
             if($number >= $decimal){
-
                 $solution .= $roman;
                 $number -= $decimal;
-
             }
         }
 
